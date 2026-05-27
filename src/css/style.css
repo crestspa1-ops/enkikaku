@@ -102,6 +102,11 @@ a {
   font-weight: 400;
 }
 
+.section-title .amp {
+  text-transform: none;
+  margin: 0 4px;
+}
+
 /* ==========================================================================
    Header & Navigation
    ========================================================================== */
@@ -498,6 +503,23 @@ body {
     padding-top: 70px;
   }
   
+  .mission-section .section-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.1;
+    font-size: 2.1rem;
+  }
+  
+  .mission-section .section-title span {
+    display: block;
+  }
+  
+  .mission-section .section-title .amp {
+    font-size: 1.6rem;
+    margin: 6px 0;
+    color: var(--text-muted);
+  }
 
   .header-container {
     height: 70px;
