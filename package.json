@@ -1,0 +1,13 @@
+{
+  "name": "en-kikaku-hp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite src",
+    "build": "vite build src --outDir ../dist --emptyOutDir",
+    "preview": "vite preview src"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0"
+  }
+}
