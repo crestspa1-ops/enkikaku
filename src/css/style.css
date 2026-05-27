@@ -447,7 +447,8 @@ body {
   color: var(--text-muted);
 }
 
-.footer-tel {
+.footer-tel,
+.footer-mail {
   font-size: 0.95rem;
   color: var(--text-main);
   font-weight: 500;
